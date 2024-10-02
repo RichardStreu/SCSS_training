@@ -1,0 +1,10 @@
+header div {
+  height: 20px;
+  margin-bottom: 5px;
+}
+header div:not(.navbar) {
+  background-color: black;
+}
+header .navbar {
+  background-color: aqua;
+}/*# sourceMappingURL=style.css.map */

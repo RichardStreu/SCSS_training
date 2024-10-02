@@ -1,0 +1,27 @@
+header {
+  div {
+    height: 20px;
+    margin-bottom: 5px;
+    &:not(.navbar) {
+      background-color: black;
+    }
+  }
+
+  .navbar {
+    background-color: aqua;
+  }
+
+  // div:not(.navbar) {
+  //   background-color: black;
+  // }
+}
+
+// .navbar - spricht nur das element mit klasse navbar an
+// div - spricht alle divs an (auch das mit klasse navbar!)
+// div:not(.navbar) - spricht alle divs an außer das mit klasse navbar
+
+// &:nth-child(odd)  spricht jedes zweite kindelement an (Ab dem zweiten - gerade anzahnl)
+// &:nth-child(even)  spricht jedes zweite kindelement an (Ab dem ersten - ungerade anzahl)
+// &:nth-child(5)   spricht das fünfte kindelement an
+// &:first-child   spricht das erste kindelement an
+// &:last-child    spricht das letzte kindelement an
